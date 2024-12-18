@@ -1,0 +1,67 @@
+{
+    "users": {
+      "YpFMUNpi8aSTPWMiACq5JoYrEUp2": {
+        "name": "Emine Nur Çalışkanol",
+        "email": "eminenurcaliskanol@nevsehir.edu.tr",
+        "role": "student",
+        "studentNumber": "21260810014",
+        "studentClass": "3.Sınıf"
+      },
+      "Bc78sa8ipLPC0hJJLAGekjD9WTn2": {
+        "name": "Berre Çakır",
+        "email": "berrecakir@nevsehir.edu.tr",
+        "role": "student",
+        "studentNumber": "21260810015",
+        "studentClass": "3.Sınıf"
+      },
+      "QPKXie9P6fQQqK4KpRy18dJP5so1": {
+        "name": "Deniz Çiçek",
+        "email": "denizcicek@nevsehir.edu.tr",
+        "role": "student",
+        "studentNumber": "21260810016",
+        "studentClass": "2.Sınıf"
+      },
+      "nWUIx0exJ0bm6uFeMxKGdwYkhh23": {
+        "name": "Emre Erkaya",
+        "email": "emreerkaya@nevsehir.edu.tr",
+        "role": "student",
+        "studentNumber": "21260810017",
+        "studentClass": "2.Sınıf"
+      },
+      "oDMrmphCOUeVItaLg8L3MDnzjDf1": {
+        "name": "Sefa Serin",
+        "email": "sefaserin@nevsehir.edu.tr",
+        "role": "student",
+        "studentNumber": "21260810018",
+        "studentClass": "3.Sınıf"
+      },
+      "K0ta3Rrqo8Tyk5ZXUAMuos1eO182": {
+        "name": "Hanieh Siahkohi",
+        "email": "haniehsiahkohi@nevsehir.edu.tr",
+        "role": "student",
+        "studentNumber": "21260810019",
+        "studentClass": "2.Sınıf"
+      },
+      "LK4IBZ9RyqfmSErQGIZ8g4JnBI32": {
+        "name": "Emre Bendeş",
+        "email": "emrebendes@nevsehir.edu.tr",
+        "role": "teacher"
+      },
+      "cSl9FIYUIUTJsKWu1ORXtYYyiam2": {
+        "name": "Ali Emre Gök",
+        "email": "aliemregok@nevsehir.edu.tr",
+        "role": "teacher"
+      },
+      "8ESuHa0xy0OK8MpLctRNE9JPBzd2": {
+        "name": "Başak Öztürk",
+        "email": "basakozturk@nevsehir.edu.tr",
+        "role": "teacher"
+      },
+      "isyPAZP1tGUYsjjSTHXqEDORcoz2": {
+        "name": "SGK Memuru",
+        "email": "sgk@nevsehir.edu.tr",
+        "role": "sgk"
+      }
+    }
+  }
+  

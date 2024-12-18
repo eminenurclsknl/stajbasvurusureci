@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGK Memur Paneli</title>
+    <link rel="stylesheet" href="sgk.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-storage-compat.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Staj Başvuru Onay Süreci</h1>
+        <h3>Onaylanmayı Bekleyen Başvurular</h3>
+
+        <button id="logoutBtn" class="logout-btn">Çıkış Yap</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>Öğrenci No</th>
+                    <th>Öğrenci Adı</th>
+                    <th>PDF</th>
+                    <th>Durum</th>
+                    <th>İşlemler</th>
+                </tr>
+            </thead>
+            <tbody id="sgkApplicationsTableBody">
+                <!-- Onay bekleyen başvurular burada listelenecek -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="sgk.js"></script>
+</body>
+</html>

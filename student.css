@@ -1,0 +1,113 @@
+/* ogrenci.html sayfası için */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #1c1c2e,#088fce);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.container{
+    background: #23233a;
+    width: 800px;
+    padding: 50px;
+    margin: 25px 0 25px 0 ;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1{
+    text-align: center;
+    color: #088fce;
+    margin-bottom: 30px;
+}
+.student-info{
+    background:#1c1c2e;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.student-info label {
+    font-size: 19px;
+    display:block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #088fce;;
+}
+.sp-student{
+    font-size: 16px;
+    color: #d3d3e0;
+}
+.content{
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+}
+
+.left-panel{
+    flex: 1;
+} 
+
+.card{
+    background: #1c1c2e;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.card h2{
+    font-size: 16px;
+    color: #088fce;
+}
+
+
+.card input[type="file"] {
+    width: 320px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #088fce;
+    border-radius: 6px;
+    background: #23233a;
+    color: #fff;
+    font-size: 14px
+}
+
+
+.card button {
+    background: #088fce;
+    cursor: pointer;
+    border: none;
+    width: 180px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 14px
+}
+
+.card button hover {
+    background:  #d3d3e0;
+}
+
+
+.status {
+    text-align: center;
+    padding: 15px;
+    background: #23233a;
+    color: #d3d3e0;
+    border-radius: 8px;
+    font-size: 14px;
+    border: 1px solid #088fce
+}
+
+
+
+

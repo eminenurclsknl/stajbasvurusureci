@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* index.html sayfası için  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} 
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right, #1c1c2e,#088fce);;
+}   
+
+.form-box {
+    width: 400px;
+    height: 480px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.842);
+    box-shadow: 0 0 20px 9px #6865641e;
+    border-radius: 35px;
+    margin: 6% auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.button-box{
+    width: 240px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #220d851a;
+    border-radius: 35px;
+}
+
+.toggle-btn{
+    position: relative; 
+    border: none;
+    padding: 10px 30px; 
+    font-size: 22px; 
+    font-weight: bolder; 
+    text-align: center; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background: linear-gradient(to right, #1c1c2e, #088fce); 
+    border-radius: 35px;  
+    color: #fff;
+    
+}
+
+.input-group{
+    position: absolute;
+    top: 130px;
+    width: 300px; 
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0 ;
+    border-style:solid;
+    border-color: grey;
+    margin: 5px 0 ;
+    background: transparent;
+    padding-left: 15px;
+}
+.submit-btn{
+    display: block;
+    width: 85%;
+    padding: 10px;
+    border: none;
+    border-radius: 35px;
+    background: linear-gradient(to right, #1c1c2e,#088fce);
+    cursor: pointer;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    margin: auto;
+}
+
+.input-group a{
+    display: inline-block;
+    text-decoration: none;
+    color: #088fce;
+    margin: 20px 10px 20px 0px;
+    font-size: 12px;
+}
+
+#Login {
+    left: 50px;
+
+}
+
+
+
