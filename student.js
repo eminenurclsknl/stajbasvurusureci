@@ -83,7 +83,7 @@ document.getElementById('uploadForm').addEventListener('submit', function(event)
 
     const uploadMessage = document.getElementById('uploadMessage');
     uploadMessage.textContent = 'Yükleniyor...';
-    uploadMessage.style.color = 'black';
+    uploadMessage.style.color = 'white';
 
 
     const storageRef = storage.ref(`applications/${userId}/${pdfFile.name}`);
@@ -168,7 +168,7 @@ function loadApplicationStatus() {
 
                    
                     card.innerHTML = `
-                        <h3>Başvuru:</h3>
+                        <h3 class="basvuru-btn" >Başvuru:</h3>
                         <p><strong>Durum:</strong> <span class="${statusClass}">${statusText}</span></p>
                         <p><strong>Tarih:</strong> ${formattedDate}</p>
                     `;

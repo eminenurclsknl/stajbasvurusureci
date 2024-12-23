@@ -48,7 +48,7 @@ button{
     transition: 0.3s;
 }
 
-button.approve{
+button.approve-btn{
     background-color: #28a745;
     color: #fff;
 }
