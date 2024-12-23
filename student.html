@@ -12,8 +12,11 @@
     <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-storage-compat.js"></script>
 </head>
 <body>
+
     <div class="container">
         <h1>Staj Başvuru Onay Süreci</h1>
+
+        <button id="logoutBtn" class="logout-btn">Çıkış Yap</button>
         
         <div class="student-info">
             <label>Ad Soyad: <span id="studentName">Ad Soyad</span></label>
@@ -21,28 +24,22 @@
             <label>Sınıf: <span id="studentClass">Sınıf</span></label>
         </div>
 
-        <button id="logoutBtn" class="logout-btn">Çıkış Yap</button>
-
         <div class="content">
             <div class="left-panel">
                 <div class="card">
                     <h2>PDF Yükle</h2>
                     <form id="uploadForm">
                         <input type="file" id="pdfFile" accept=".pdf" required>
-                        <label for="teacherSelect">Öğretmen Seç:</label>
+                        <label for="teacherSelect" >Komisyon Seç:</label>
                         <select id="teacherSelect" required>
-                            <option value="">-- Öğretmen Seçiniz --</option>
-                            <!-- Öğretmen listesi burada doldurulacak -->
+                            <option value="">Komisyon Seçiniz</option>
                         </select>
                         <button type="submit" class="upload-btn">PDF Yükle ve Gönder</button>
                     </form>
                     <div id="uploadMessage"></div>
                 </div>
-                <!-- Başvuru Durumu Kartları -->
-    <h2>Başvuru Durumlarınız</h2>
-    <div id="approvalStatus" class="application-cards">
-        <!-- Dinamik içerik burada eklenecek -->
-    </div>
+                    <h2>Başvuru Durumlarınız</h2>
+                    <div id="approvalStatus" class="application-cards"></div>
             </div>
         </div>
     </div>

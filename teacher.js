@@ -61,14 +61,16 @@ function loadApplications(teacherId) {
                     <td>${app.studentName}</td>
                     <td><a href="${app.pdfUrl}" target="_blank" style="color: #088fce;">PDF Dosyasını Görüntüle</a></td>
                     <td>${app.teacherStatus}</td>
-                    <td>${app.rejectionReason ? app.rejectionReason : 'N/A'}</td>
+                    <td>${app.rejectionReason ? app.rejectionReason : ''}</td>
                     <td>
-                        ${app.teacherStatus === 'Beklemede' ? `
-                            <button class="approve-btn" data-key="${childSnapshot.key}">Onayla</button>
-                            <button class="reject-btn" data-key="${childSnapshot.key}">Reddet</button>
-                        ` : `
-                            <span>İşlem Yapıldı</span>
-                        `}
+                        <div class="button-container">
+                            ${app.teacherStatus === 'Beklemede' ? `
+                                <button class="approve-btn" data-key="${childSnapshot.key}">Onayla</button>
+                                <button class="reject-btn" data-key="${childSnapshot.key}">Reddet</button>
+                            ` : `
+                                <span>İşlem Yapıldı</span>
+                            `}
+                        </div>
                     </td>
                 `;
 
