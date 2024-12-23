@@ -9,7 +9,13 @@ body {
     min-height: 100vh;
     color: #fff;
 }
-
+.logout-btn{
+    margin-bottom: 20px;
+    padding: 8px;
+    background-color: #088fce;
+    color: #fff;
+    border: none;
+}
 .container{
     background: #23233a;
     width: 800px;
@@ -48,7 +54,7 @@ button{
     transition: 0.3s;
 }
 
-button.approve-btn{
+.approve-btn{
     background-color: #28a745;
     color: #fff;
 }
